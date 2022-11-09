@@ -1,12 +1,8 @@
-$block_width: 420px;
-
 %blocks {
     bottom: 0;
     position: absolute;
-    width: $block_width;
     min-height: 310px;
     border-radius: 20px;
-    transition: left 1.5s ease-in-out, bottom .3s ease-in-out;
     padding: 30px 40px 10px 30px;
     font-size: 20px;
     &:hover {
@@ -31,3 +27,25 @@ $block_width: 420px;
         background-color: #FD6584; 
     }
 }
+@media screen and (max-width: 1279px) {
+    %blocks {
+        font-size: 17px;
+        padding: 20px 40px 10px 20px
+    }
+ }
+ @media screen and (max-width: 999px) {
+    %blocks {
+        position: static;
+        min-height: 100px;
+        margin-top: 20px;
+    }
+    .about_me__blocks {
+        height: auto;
+    }
+ }
+
+ @media screen and (max-width: 479px) {
+    %blocks {
+        font-size: 15px;
+    }
+ }
