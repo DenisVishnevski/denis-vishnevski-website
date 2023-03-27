@@ -65,12 +65,12 @@ function Header(props: Props) {
             </div>
             <div className="header_links">
                <nav>
-                  <a href="#portfolio">{translate("PROJECTS")}</a>
                   <a href="#skills">{translate("SKILLS")}</a>
+                  <a href="#portfolio">{translate("PROJECTS")}</a>
                   <a href="#contacts">{translate("CONTACTS")}</a>
                </nav>
                <div style={{ position: 'relative', left: languageButtonOffset, transition: 'all .7s ease-in-out' }}>
-                  <GithubButton link='https://github.com/DenisVishnevski'/>
+                  <GithubButton link='https://github.com/DenisVishnevski' />
                </div>
             </div>
          </div>

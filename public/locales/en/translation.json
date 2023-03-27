@@ -19,15 +19,19 @@
     "HTML_skill": "I strive to write semantic HTML code and clear class names.",
     "CSS_skill": "When adapting the site for different devices, if possible, I use functions such as min(), max() and clamp(), which help to get rid of unnecessary media queries.",
     "SASS_skill": "This site I wrote using SASS, found a lot of advantages using preprocessors instead of css.",
+    "LESS_skill": "Using LESS I wrote ",
+    "LESS_skill_link": "To-do list.",
+    "Tailwind_skill": "Developed a CRM system for a clinic where I used Tailwind. I found for myself both the pros and cons of using this framework.",
     "JavaScript_skill": "Used in my projects in practice most of the features of ES6+.",
-    "TypeScript_skill": "Since I was learning C# before, and got used to static typing, I quickly figured out TypeScript and completely switched to it in his projects.",
+    "TypeScript_skill": "Since I had studied C# before and got used to static typing, I quickly learned TypeScript. I use it in most of my projects.",
     "React_skill": "I strive to create a developer-friendly and easily maintained application architecture.",
     "Redux_skill": "Used Redux to create ",
-    "Redux_skill_link": "Landing for a photographer",
-    "Redux_slill2": ", so that I don't have to pass the variable through several components.",
+    "Redux_skill_link": "Landing for a photographer. ",
+    "Redux_slill2": "I also used the Redux-Thunk library when developing a CRM system for a clinic.",
+    "REST_skill": "I understand REST API principles and have experience with RESTful applications.",
     "Figma_skill": "Can export images, work with layers, styles, the Inspect tab. If necessary I can contribute layout edits.",
-    "C#_skill": "I write hyper-casual games on Unity, can write a simple API with ASP.NET Core.",
-    "ASP.NET_slill": "I have a basic understanding of how the backend works, HTTP requests and REST API.",
+    "C#_skill": "I have been studying C# for over two years. As a hobby, I write hyper-casual games in Unity.",
+    "ASP.NET_slill": "I have basic knowledge to work with ASP.NET Core, I can write a simple web application.",
 
 
     "Portfolio": "Portfolio",
@@ -36,5 +40,7 @@
     "Personal portfolio website": "Personal portfolio website",
     "Go to website": "Go to website",
 
-    "Contacts": "Contacts"
+    "Contacts": "Contacts",
+
+    "Website design": "Website design by"
 }

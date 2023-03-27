@@ -45,6 +45,7 @@ $hover_block_color: #705CF1;
         margin: 0;
     }
 }
+
 .skill__block {
     width: calc(100% - 20px);
     margin-right: 20px;
@@ -82,7 +83,7 @@ $hover_block_color: #705CF1;
 }
 
 .description_block {
-    min-height: 200px;
+    min-height: 230px;
     @extend %blocks_style;
 }
 
@@ -91,6 +92,10 @@ $hover_block_color: #705CF1;
         padding: 20px;
         font-size: 17px;
     }
+
+    .description_block {
+        min-height: 200px;
+    }
 }
 
 @media screen and (max-width: 999px) {
@@ -98,34 +103,41 @@ $hover_block_color: #705CF1;
         min-height: 255px;
     }
 }
+
 @media screen and (max-width: 767px) {
     .skill__buttons {
         &>* {
             margin-right: 20px;
         }
-    
+
         margin-bottom: 30px;
     }
+
     .skills__blocks {
         display: block;
     }
+
     .skill__block {
         width: 100%;
         margin-right: 0px;
     }
+
     .description_block {
         min-height: 120px;
     }
 }
+
 @media screen and (max-width: 479px) {
     %blocks_style {
         font-size: 15px;
     }
+
     .skill__buttons {
         &>* {
             margin-right: 10px;
         }
     }
+
     .description_block {
         min-height: 100px;
     }

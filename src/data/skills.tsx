@@ -18,7 +18,20 @@ export const layoutingBlocksArray: object[] = [
         title: 'SASS / SCSS',
         titleColor: '#CD6799',
         description: "SASS_skill"
+    },
+    {
+        title: 'LESS',
+        titleColor: '#2965F1',
+        description: "LESS_skill",
+        link: "#portfolio",
+        linkTitle: "LESS_skill_link"
+    },
+    {
+        title: 'Tailwind CSS',
+        titleColor: '#5BFEFE',
+        description: "Tailwind_skill"
     }
+  
 ]
 export const programmingBlocksArray: object[] = [
     {
@@ -43,6 +56,11 @@ export const programmingBlocksArray: object[] = [
         description2: "Redux_slill2",
         link: "#portfolio",
         linkTitle: "Redux_skill_link"
+    },
+    {
+        title: 'REST',
+        titleColor: '#FFFFFF',
+        description: "REST_skill",
     }
 ]
 export const moreBlocksArray: object[] = [

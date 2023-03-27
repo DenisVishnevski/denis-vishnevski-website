@@ -19,8 +19,8 @@ function Footer(props: { translate: (value: string) => string }) {
             <div className="bottom_block">
                 <div className="footer_links">
                     <nav>
-                        <a href="#portfolio">{translate("PROJECTS")}</a>
                         <a href="#skills">{translate("SKILLS")}</a>
+                        <a href="#portfolio">{translate("PROJECTS")}</a>
                         <a href="#contacts">{translate("CONTACTS")}</a>
                     </nav>
                     <a href="https://github.com/DenisVishnevski" target="_blank">
@@ -28,7 +28,7 @@ function Footer(props: { translate: (value: string) => string }) {
                         <img src={linkArrow} alt="Мой GitHub" />
                     </a>
                 </div>
-                <h3>Дизайн сайта <a href="https://www.behance.net/11c1d013">@sanya_uiux</a></h3>
+                <h3>{translate("Website design")} <a target="_blank" href="https://www.behance.net/11c1d013">@sanya_uiux</a></h3>
             </div>
         </footer>
     );

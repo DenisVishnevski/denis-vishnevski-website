@@ -21,7 +21,7 @@ export const portfolioBlocks: object[] = [
         title: 'Landing for a photographer',
         id: 'portfolio',
         technologies: [programmingBlocksArray[2], programmingBlocksArray[3]],
-        websiteLink: 'http://andreyrudenko-001-site1.ctempurl.com/',
+        websiteLink: 'http://andreyrudenko1-001-site1.atempurl.com/',
         githubLink: 'https://github.com/DenisVishnevski/AndreyRudenko',
         desktopImage: andreyRudenkoDesktop,
         mobileImage: andreyRudenkoMobile
@@ -31,7 +31,7 @@ export const portfolioBlocks: object[] = [
         id: 'portfolio',
         technologies: [programmingBlocksArray[2], layoutingBlocksArray[2], {title: 'i18next', titleColor: '#12BFAF'}],
         websiteLink: '#1',
-        githubLink: 'https://github.com/DenisVishnevski/denis_vishnevski_project',
+        githubLink: 'https://github.com/DenisVishnevski/denis-vishnevski-website',
         desktopImage: denisVishnevskiDesktop,
         mobileImage: denisVishnevskiMobile
     },
